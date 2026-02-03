@@ -1,6 +1,6 @@
 const prompt = require("prompt-sync")({ sigint: true });
 
-const input = prompt("Masukkan angka fibo : ");
+const input = Number(prompt("Masukkan angka fibo : "));
 
 let a = 0;
 let b = 1;
